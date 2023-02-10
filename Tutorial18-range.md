@@ -1,8 +1,5 @@
 # Python range() Function
 
-**Video link:** [https://youtu.be/muKeRgZ9LnU](https://youtu.be/muKeRgZ9LnU)
-
-In this video, we learned about the Python `range()` function that returns a sequence.
 
 **Programs in the Video**
 
