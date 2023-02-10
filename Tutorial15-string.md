@@ -1,10 +1,5 @@
 # Python String
 
-**Video link:** [https://youtu.be/GQywwPUrsgA](https://youtu.be/GQywwPUrsgA)
-
-In this video, we learned about Python strings in depth.
-
-**Programs in the Video**
 
 - [Create a String](#create-a-string)
 - [Access String Characters](#access-string-characters)
