@@ -1,11 +1,5 @@
 # Python List and Tuple
 
-**Video link:** [https://youtu.be/hANUgg72TDc](https://youtu.be/hANUgg72TDc)
-
-In this video, we learned about two compound data types in Python: lists and tuples.
-
-**Programs in the Video**
-
 - [Create a List](#create-a-list)
 - [Access List Elements](#access-list-elements)
 - [Negative Indexing](#negative-indexing)
