@@ -1,9 +1,6 @@
 # Python Operators
 
 
-
-**Programs in the Video**
-
 - [Arithmetic Operators](#arithmetic-operators)
 - [Concatenate Strings](#concatenate-strings)
 - [Program to Compute Amount After Discount](#program-to-compute-discount)
