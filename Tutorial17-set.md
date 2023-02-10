@@ -1,11 +1,5 @@
 # Python Set
 
-**Video link:** [https://youtu.be/-vfzvT0Fh0A](https://youtu.be/-vfzvT0Fh0A)
-
-In this video, we learned about a compound data type in Python called set.
-
-**Programs in the Video**
-
 - [Creating Sets](#creating-sets)
 - [Add Items to a Set](#add-items-to-a-set)
 - [Remove Items from a Set](#remove-items-from-a-set)
