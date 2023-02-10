@@ -1,6 +1,5 @@
 # Python Comments
 
-**Programs in the Video**
 
 - [Python Comments](#python-comments-1)
 - [Prevent Executing Code Using Comments](#prevent-executing-code-using-comments)
