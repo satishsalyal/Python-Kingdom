@@ -1,9 +1,5 @@
 # Python File Handling
 
-**Video link:** [https://youtu.be/crluPcyuchU](https://youtu.be/crluPcyuchU)
-
-In this video, we learned how to perform various file operations like reading and writing into files with the help examples.
-
 **Programs in the Video**
 
 - [File Operations](#file-operations)
