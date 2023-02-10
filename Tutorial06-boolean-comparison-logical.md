@@ -1,6 +1,5 @@
 # Python Booleans, Comparison and Logical Operators
 
-**Programs in the Video**
 
 - [Boolean Data Type](#boolean-data-type)
 - [Comparison Operators](#comparison-operators)
