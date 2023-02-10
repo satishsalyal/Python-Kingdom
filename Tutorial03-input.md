@@ -1,6 +1,5 @@
 # Take Input from the User
 
-**Programs in the Video**
 
 - [Take input from the user](#take-input-from-the-user-1)
 - [Printing message before input](#printing-message-before-input)
