@@ -1,9 +1,5 @@
 # Python Comments
 
-**Video link:** [https://youtu.be/rhF1x2lnRQA](https://youtu.be/rhF1x2lnRQA)
-
-In this video, we learned about Python comments that make our code much more easier to read and understand.
-
 **Programs in the Video**
 
 - [Python Comments](#python-comments-1)
