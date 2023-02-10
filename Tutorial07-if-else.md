@@ -1,8 +1,5 @@
 # Python if...else Statement
 
-**Video link:** [https://youtu.be/497MClrekMY](https://youtu.be/497MClrekMY)
-
-In this video, we learned about decision making in Python using the **if...else** statement.
 
 **Programs in the Video**
 
