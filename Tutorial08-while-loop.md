@@ -1,8 +1,6 @@
 # Python while Loop
 
 
-**Programs in the Video**
-
 - [Python while Loop](#python-while-loop-1)
 - [**Task**: Guess the output](#programming-task-1)
 - [**Example**: Multiplication Table](#example-multiplication-table)
