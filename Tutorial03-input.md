@@ -1,9 +1,5 @@
 # Take Input from the User
 
-**Video link:** [https://youtu.be/DRBybZ6hsY0](https://youtu.be/DRBybZ6hsY0)
-
-In this video, we learned to take input from the user.
-
 **Programs in the Video**
 
 - [Take input from the user](#take-input-from-the-user-1)
