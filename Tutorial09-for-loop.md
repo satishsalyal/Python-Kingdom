@@ -1,6 +1,5 @@
 # Python for Loop
 
-**Programs in the Video**
 
 - [Python Sequences](#python-sequences)
 - [Python for Loop](#python-for-loop-1)
