@@ -1,10 +1,5 @@
 # Python `datetime` module
 
-**Video link:** [https://youtu.be/r1Iv4d6CO2Q](https://youtu.be/r1Iv4d6CO2Q)
-
-In this video, we learned about the `datetime` module to manipulate date and time in Python.
-
-**Programs in the Video**
 
 - [Get Current Date](#get-current-date)
 - [The datetime.date Class](#the-datetimedate-class)
