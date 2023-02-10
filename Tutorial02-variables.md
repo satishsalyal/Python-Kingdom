@@ -1,8 +1,6 @@
 # print() Function and Variables
 
 
-**Programs in the Video**
-
 - [Program to Print Strings](#print-function)
 - [Program to Print Numbers](#program-to-print-numbers)
 - [Store Data in a Variable](#program-to-print-numbers)
