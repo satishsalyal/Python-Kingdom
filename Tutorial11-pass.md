@@ -1,10 +1,5 @@
 # Python `pass`
 
-**Video link:** [https://youtu.be/n4B3zYfk_Pg](https://youtu.be/n4B3zYfk_Pg)
-
-In this video, we learned about the `pass` statement in Python.
-
-**Programs in the Video**
 
 - [Python pass Statement](#python-pass-statement)
 
