@@ -1,8 +1,5 @@
 # Python while Loop
 
-**Video link:** [https://youtu.be/5AOfDuV6X30](https://youtu.be/5AOfDuV6X30)
-
-In this video, we learned about loops to repeat certain blocks of code, specifically using the `while` loop.
 
 **Programs in the Video**
 
