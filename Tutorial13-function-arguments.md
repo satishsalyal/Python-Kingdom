@@ -1,6 +1,5 @@
 # Python Function Arguments
 
-**Programs in the Video**
 
 - [Positional Arguments](#positional-arguments)
 - [Default Arguments](#default-arguments)
