@@ -1,11 +1,5 @@
 # Python Iterators and Iterables
 
-**Video link:** [https://youtu.be/C_rhipZonok](https://youtu.be/C_rhipZonok)
-
-In this video, we learned about iterables and iterators in Python with the help of examples.
-
-**Programs in the Video**
-
 - [Python Iterables](#python-iterables)
 - [Python Iterators](#python-iterators)
 - [The `__next__()` method](#the-__next__-method)
