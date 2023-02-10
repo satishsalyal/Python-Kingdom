@@ -1,9 +1,5 @@
 # Python Function Arguments
 
-**Video link:** [https://youtu.be/Gf-Ws2cXEuA](https://youtu.be/Gf-Ws2cXEuA)
-
-In this video, we learned about the different ways in which we can pass arguments to a function in Python. We also learned to assign default values to function arguments.
-
 **Programs in the Video**
 
 - [Positional Arguments](#positional-arguments)
