@@ -1,8 +1,6 @@
 # Python Dictionary
 
 
-**Programs in the Video**
-
 - [Create Dictionaries](#create-dictionaries)
 - [Access Dictionary Elements](#access-dictionary-elements)
 - [Add and Change Dictionary Elements](#add-and-change-dictionary-elements)
