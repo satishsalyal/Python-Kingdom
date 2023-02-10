@@ -12,8 +12,6 @@ Python is a powerful general-purpose programming language. It is used in:
 
 Compared to other programming languages, Python has simple, easy-to-use syntax. This makes Python an excellent language to learn to program for beginners.
 
-## Programs in the Videos
-
 ```python
 print("Hello World!")
 ```
