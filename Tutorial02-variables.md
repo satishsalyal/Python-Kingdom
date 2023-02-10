@@ -1,8 +1,5 @@
 # print() Function and Variables
 
-**Video Link:** [https://www.youtube.com/watch?v=i83VkP0LHPI](https://www.youtube.com/watch?v=i83VkP0LHPI)
-
-In this video, we learned about the `print()` function and variables in Python.
 
 **Programs in the Video**
 
