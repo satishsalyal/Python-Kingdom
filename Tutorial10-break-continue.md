@@ -1,6 +1,5 @@
 # Python `break` and `continue`
 
-**Programs in the Video**
 
 - [Python break Statement](#python-break-statement)
 - [Python continue Statement](#python-continue-statement)
