@@ -1,6 +1,5 @@
 # Python Generators
 
-**Programs in the Video**
 
 - [Why Generators?](#why-generators)
 - [Python Generators](#python-generators-1)
