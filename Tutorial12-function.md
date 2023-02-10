@@ -1,10 +1,5 @@
 # Python Functions
 
-**Video link:** [https://youtu.be/-Bkupx9gX0o](https://youtu.be/-Bkupx9gX0o)
-
-In this video, we learned about Python functions that make our program more organized and manageable by dividing our code into smaller and modular chunks.
-
-**Programs in the Video**
 
 - [Python Functions](#python-functions-1)
 - [Function Arguments](#function-arguments)
