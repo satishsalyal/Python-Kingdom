@@ -1,8 +1,6 @@
 # Python if...else Statement
 
 
-**Programs in the Video**
-
 - [Python if statement](#python-if-statement)
 - [Python if...else statement](#python-ifelse-statement-1)
 - [Python if...elif...else statement](#python-ifelifelse-statement)
