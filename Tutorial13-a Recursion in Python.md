@@ -1,6 +1,16 @@
 # Python Recursion 
 
 Recursion is a technique in programming where a function calls itself repeatedly until a certain condition is met. 
+
+Syntax:
+    ```Python
+    def func(): <--
+                  |
+                  | (recursive call)
+                  |
+        func() ----
+   ```
+
 Here is an example of a recursive function in Python:
 
 ```Python
