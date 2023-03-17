@@ -72,7 +72,7 @@ Square brackets define a list or range of characters to be found:
 
 - /i renders an expression case-insensitive equivalent to [A-Za-z]
 
-### Examples: Re modile functions
+### Examples: Re module functions
 The RegEx mechanism comes with the module named re, and it provides many functions.
 
 ### re.match() Function
