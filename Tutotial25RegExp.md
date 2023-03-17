@@ -78,8 +78,7 @@ The RegEx mechanism comes with the module named re, and it provides many functio
 ### re.match() Function
 
 The re.match() function of the re module in Python searches for the regular expression pattern and returns the first occurrence. 
-```python
-```
+
 ```python
 import re
 
