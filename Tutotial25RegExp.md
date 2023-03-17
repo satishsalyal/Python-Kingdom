@@ -9,7 +9,7 @@ Python has a module named re to work with RegEx. Here's an example:
 ^a...s$
 ```
 
-Python has a module named ** _re_ ** to work with RegEx. Here's an example:
+Python has a module named **_re_** to work with RegEx. Here's an example:
 
 ```python
 import re
