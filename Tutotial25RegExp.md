@@ -1,4 +1,28 @@
 ## Regular expressions
+A __Regular Expression__ (RegEx) is a sequence of characters that defines a search pattern. For example,
+Python has a module named re to work with RegEx. Here's an example:
+^a...s$
+```
+
+Python has a module named re to work with RegEx. Here's an example:
+
+```
+import re
+
+pattern = '^f.r$'
+test_string = 'information'
+result = re.match(pattern, test_string)
+
+if result:
+  print("Search successful.")
+else:
+  print("Search unsuccessful.")	
+  
+```
+### Metacharacters are characters that are interpreted in a special way by a RegEx engine. Here's a list of metacharacters:
+
+[] . ^ $ * + ? {} () \ |
+
 ### Common regex metacharacters
 Square brackets define a list or range of characters to be found:
 
