@@ -2,13 +2,13 @@
 
 A __Regular Expression__ (RegEx) is a sequence of characters that defines a search pattern. For example,
 Python has a module named re to work with RegEx. Here's an example:
-```
+```python
 ^a...s$
 ```
 
 Python has a module named re to work with RegEx. Here's an example:
 
-```
+```python
 import re
 
 pattern = '^f.r$'
