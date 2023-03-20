@@ -1,7 +1,8 @@
  ## NumPy 
  - refers to Numerical Python. 
  - It is an open-source library in Python that aids in mathematical and numerical calculations and computations; 
- - and, scientific, engineering, and data science programming. NumPy is an essential library used to perform mathematical and statistical operations.
+ - and, scientific, engineering, and data science programming. 
+ - NumPy is an essential library used to perform mathematical and statistical operations.
  - It is especially suited for multi-dimensional arrays and matrix multiplications.
  -  This NumPy tutorial focuses on the essential things you need to know to master NumPy.
  
