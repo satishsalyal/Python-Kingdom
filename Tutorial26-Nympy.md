@@ -121,26 +121,27 @@ b = a.T
 
 ## NumPy Array functions
 Here are some commonly used NumPy array functions:
-np.array() - Creates a NumPy array from a list or tuple.
-np.arange() - Generates a sequence of evenly spaced values within a given interval.
-np.zeros() - Creates an array filled with zeros.
-np.ones() - Creates an array filled with ones.
-np.empty() - Creates an array without initializing its elements to any particular value.
-np.linspace() - Generates a sequence of evenly spaced numbers over a specified interval.
-np.eye() - Creates a 2D array with ones on the diagonal and zeros elsewhere.
-np.random.rand() - Generates an array of random numbers uniformly distributed over [0,1].
-np.random.randn() - Generates an array of random numbers following a standard normal distribution.
-np.reshape() - Reshapes an array into a specified shape.
-np.transpose() - Transposes an array (rows become columns, and vice versa).
-np.dot() - Computes the dot product of two arrays.
-np.sum() - Computes the sum of the elements in an array.
-np.mean() - Computes the mean of the elements in an array.
-np.std() - Computes the standard deviation of the elements in an array.
-np.min() - Computes the minimum element in an array.
-np.max() - Computes the maximum element in an array.
-np.argsort() - Returns the indices that would sort an array.
-np.concatenate() - Concatenates two or more arrays along a specified axis.
-np.split() - Splits an array into multiple sub-arrays along a specified axis.
-These are just a few examples of the many functions available in NumPy. NumPy is a very powerful library for working with arrays and has a lot of functionality for mathematical operations, data analysis, and more.
+- np.array() - Creates a NumPy array from a list or tuple.
+- np.arange() - Generates a sequence of evenly spaced values within a given interval.
+- np.zeros() - Creates an array filled with zeros.
+- np.ones() - Creates an array filled with ones.
+- np.empty() - Creates an array without initializing its elements to any particular value.
+-  np.linspace() - Generates a sequence of evenly spaced numbers over a specified interval.
+-  np.eye() - Creates a 2D array with ones on the diagonal and zeros elsewhere.
+-  np.random.rand() - Generates an array of random numbers uniformly distributed over [0,1].
+-  np.random.randn() - Generates an array of random numbers following a standard normal distribution.
+-  np.reshape() - Reshapes an array into a specified shape.
+-  np.transpose() - Transposes an array (rows become columns, and vice versa).
+-  np.dot() - Computes the dot product of two arrays.
+-  np.sum() - Computes the sum of the elements in an array.
+-  np.mean() - Computes the mean of the elements in an array.
+-  np.std() - Computes the standard deviation of the elements in an array.
+-  np.min() - Computes the minimum element in an array.
+-  np.max() - Computes the maximum element in an array.
+-  np.argsort() - Returns the indices that would sort an array.
+-  np.concatenate() - Concatenates two or more arrays along a specified axis.
+-  np.split() - Splits an array into multiple sub-arrays along a specified axis.
+These are just a few examples of the many functions available in NumPy. NumPy is a very powerful 
+library for working with arrays and has a lot of functionality for mathematical operations, data analysis, and more.
 
 
