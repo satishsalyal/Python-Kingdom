@@ -141,6 +141,8 @@ Here are some commonly used NumPy array functions:
 -  np.argsort() - Returns the indices that would sort an array.
 -  np.concatenate() - Concatenates two or more arrays along a specified axis.
 -  np.split() - Splits an array into multiple sub-arrays along a specified axis.
+ 
+
 These are just a few examples of the many functions available in NumPy. NumPy is a very powerful 
 library for working with arrays and has a lot of functionality for mathematical operations, data analysis, and more.
 
