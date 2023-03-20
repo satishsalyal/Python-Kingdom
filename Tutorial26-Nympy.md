@@ -15,7 +15,7 @@
    ```
 ### Importing NumPy
 - After installation, you can import NumPy in your Python code using the following line:
--
+
 ```python
 import numpy as np
 
