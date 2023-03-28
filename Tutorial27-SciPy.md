@@ -59,27 +59,27 @@ SciPy is a great library to use if you need to perform complex scientific calcul
 ## SciPy provides a large number of functions for scientific and technical computing.
 Here is a non-exhaustive list of some of the most commonly used functions:
 
-- Integration functions: **_quad, dblquad, tplquad, fixed_quad, quadrature, romberg
+- Integration functions: **_quad, dblquad, tplquad, fixed_quad, quadrature, romberg-**
 
-- Optimization functions: **_minimize, root, linprog, curve_fit, fmin, fmin_bfgs, fmin_powell, fmin_cg, fmin_ncg**
+- Optimization functions: **_minimize, root, linprog, curve_fit, fmin, fmin_bfgs, fmin_powell, fmin_cg, fmin_ncg_**
 
-- Interpolation functions: **_interp1d, interp2d, interpn, griddata, spline, BSpline**
+- Interpolation functions: **_interp1d, interp2d, interpn, griddata, spline, BSpline_**
 
-- Linear algebra functions: **_solve, inv, det, eig, eigvals, svd, cholesky, qr, lu, norm**
+- Linear algebra functions: **_solve, inv, det, eig, eigvals, svd, cholesky, qr, lu, norm_**
 
-- Fourier transform functions: **_fft, ifft, fft2, ifft2, fftn, ifftn, rfft, irfft, dct, idct**
+- Fourier transform functions: **_fft, ifft, fft2, ifft2, fftn, ifftn, rfft, irfft, dct, idct_**
 
-- Signal processing functions: **_convolve, correlate, hilbert, hanning, hamming, kaiser, lfilter, resample, sosfilt**
+- Signal processing functions: **_convolve, correlate, hilbert, hanning, hamming, kaiser, lfilter, resample, sosfilt_**
 
-- Statistics functions: **_norm, binom, poisson, uniform, expon, beta, gamma, t, f, chi2, ks_2samp, ttest_ind**
+- Statistics functions: **_norm, binom, poisson, uniform, expon, beta, gamma, t, f, chi2, ks_2samp, ttest_ind_**
 
-- Sparse matrix functions: **_csr_matrix, coo_matrix, lil_matrix, dok_matrix, issparse, spdiags, bsr_matrix**
+- Sparse matrix functions: **_csr_matrix, coo_matrix, lil_matrix, dok_matrix, issparse, spdiags, bsr_matrix_**
 
-- Image processing functions: **_imread, imsave, imresize, imshow, rgb2gray, gray2rgb, label, find_contours, gaussian_filter**
+- Image processing functions: **_imread, imsave, imresize, imshow, rgb2gray, gray2rgb, label, find_contours, gaussian_filter_**
 
-- Cluster functions: **_hierarchy.linkage, hierarchy.dendrogram, kmeans, fcluster**
+- Cluster functions: **_hierarchy.linkage, hierarchy.dendrogram, kmeans, fcluster_**
 
-- Distance functions: **_euclidean, cityblock, hamming, jaccard, pdist, cdist**
+- Distance functions: **_euclidean, cityblock, hamming, jaccard, pdist, cdist_**
 
 
 ## SciPy constants
