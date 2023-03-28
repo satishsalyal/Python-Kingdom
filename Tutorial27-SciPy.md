@@ -87,16 +87,20 @@ There are a variety of constants that are included in the scipy.constant sub-pac
 Let us see how these constant variables are imported and used.
 ```python
 
-#Import golden constant from the scipy   
-import scipy
-from scipy.constants import pi
-print("sciPy - pi = %.16f"%scipy.constants.pi)
-print("sciPy -golden ratio  Value = %.18f"%scipy.constants.golden)
+from scipy import constants
+
+print(constants.pi)
 Output: 
-sciPy - pi = 3.1415926535897931
-sciPy -golden ratio  Value = 1.618033988749894903 
+3.1415926535897931
+ 
 ```
-As you can see, we imported and printed the golden ratio constant using SciPy.
+
+```python
+from scipy import constants
+
+print(dir(constants))
+```
+As you can see, we imported and printed the pio constant using SciPy.
 The scipy.constant also provides the find() function, which returns a list of physical_constant keys containing a given string.
 
 Consider the following example:
