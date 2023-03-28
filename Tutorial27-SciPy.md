@@ -61,25 +61,25 @@ Here is a non-exhaustive list of some of the most commonly used functions:
 
 - Integration functions: **_quad, dblquad, tplquad, fixed_quad, quadrature, romberg
 
-- Optimization functions: **_minimize, root, linprog, curve_fit, fmin, fmin_bfgs, fmin_powell, fmin_cg, fmin_ncg
+- Optimization functions: **_minimize, root, linprog, curve_fit, fmin, fmin_bfgs, fmin_powell, fmin_cg, fmin_ncg**
 
-- Interpolation functions: **_interp1d, interp2d, interpn, griddata, spline, BSpline
+- Interpolation functions: **_interp1d, interp2d, interpn, griddata, spline, BSpline**
 
-- Linear algebra functions: **_solve, inv, det, eig, eigvals, svd, cholesky, qr, lu, norm
+- Linear algebra functions: **_solve, inv, det, eig, eigvals, svd, cholesky, qr, lu, norm**
 
-- Fourier transform functions: **_fft, ifft, fft2, ifft2, fftn, ifftn, rfft, irfft, dct, idct
+- Fourier transform functions: **_fft, ifft, fft2, ifft2, fftn, ifftn, rfft, irfft, dct, idct**
 
-- Signal processing functions: **_convolve, correlate, hilbert, hanning, hamming, kaiser, lfilter, resample, sosfilt
+- Signal processing functions: **_convolve, correlate, hilbert, hanning, hamming, kaiser, lfilter, resample, sosfilt**
 
-- Statistics functions: **_norm, binom, poisson, uniform, expon, beta, gamma, t, f, chi2, ks_2samp, ttest_ind
+- Statistics functions: **_norm, binom, poisson, uniform, expon, beta, gamma, t, f, chi2, ks_2samp, ttest_ind**
 
-- Sparse matrix functions: **_csr_matrix, coo_matrix, lil_matrix, dok_matrix, issparse, spdiags, bsr_matrix
+- Sparse matrix functions: **_csr_matrix, coo_matrix, lil_matrix, dok_matrix, issparse, spdiags, bsr_matrix**
 
-- Image processing functions: **_imread, imsave, imresize, imshow, rgb2gray, gray2rgb, label, find_contours, gaussian_filter
+- Image processing functions: **_imread, imsave, imresize, imshow, rgb2gray, gray2rgb, label, find_contours, gaussian_filter**
 
-- Cluster functions: **_hierarchy.linkage, hierarchy.dendrogram, kmeans, fcluster
+- Cluster functions: **_hierarchy.linkage, hierarchy.dendrogram, kmeans, fcluster**
 
-- Distance functions: **_euclidean, cityblock, hamming, jaccard, pdist, cdist
+- Distance functions: **_euclidean, cityblock, hamming, jaccard, pdist, cdist**
 
 
 ## SciPy constants
