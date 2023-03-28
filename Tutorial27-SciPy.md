@@ -128,11 +128,11 @@ Here is how you can get the value of the required constant:
         5.	E	                    Elementary charge
         6.	R	                    Molar gas constant
         7.	Alpha	                Fine-structure constant
-        8.	N_A	Avogadro            constant
-        9.	K	Boltzmann           constant
+        8.	N_A	                    Avogadro constant
+        9.	K	                    Boltzmann constant
         10	Sigma	                Stefan-Boltzmann constant σ
         11.	m_e	                    Electron mass
         12.	m_p	                    Proton mass
         13.	m_n	                    Neutron Mass
         14.	H	                    Plank Constant
-        15.	Plank constant          Plank constant h
+      
