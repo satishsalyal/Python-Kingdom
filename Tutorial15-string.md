@@ -494,7 +494,7 @@ print(string1*3)
 print(string1*4)
 print(string1*5)
 ```
-``
+```
 Output:
 
 Repetition
