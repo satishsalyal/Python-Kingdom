@@ -431,7 +431,7 @@ print("3.", quote.replace("code", "program"))
 2. d
 3. Talk is cheap. Show me the program.
 ```
-## String Operators in Python
+# String Operators in Python
 ```
 Following are the common string operations that can be performed in Python:
 
@@ -454,7 +454,7 @@ Escape sequence operator: “\”
 String formatting operator: “%” & “{}”
 ```
 ```
-Examples of String Operators in Python
+## Examples of String Operators in Python
 In the following article, with examples, we will learn how to perform operations on a string in Python.
 
 Example #1 – Assignment Operator “=”
@@ -483,7 +483,7 @@ print(string_combined)
 Output:
 
 hello world
-Example #3 – String Repetition Operator “*”
+### Example #3 – String Repetition Operator “*”
 The same string can be repeated in Python by n times using string*n, as explained in the below example.
 
 Code:
@@ -498,7 +498,7 @@ print(string1*5)
 Output:
 
 Repetition
-Example #4 – String slicing operator “[]”
+### Example #4 – String slicing operator “[]”
 Characters from a specific string index can be accessed with the string[index] operator. The index is interpreted as a positive index starting from 0 from the left side and a negative index starting from -1 from the right side.
 
 String	H	E	L	L	O	W	O	R	L	D
@@ -531,7 +531,7 @@ print(string1[::-1])
 Output:
 
 String Operators in Python 1-4
-Example #5 – String Comparison Operator “==” & “!=”
+### Example #5 – String Comparison Operator “==” & “!=”
 The string comparison operator in Python is used to compare two strings.
 
 The “==” operator returns Boolean True if two strings are the same and Boolean False if two strings are different.
