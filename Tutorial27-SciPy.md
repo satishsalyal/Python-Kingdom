@@ -5,7 +5,13 @@
 - it provides a large number of functions for optimization, integration, interpolation, signal processing, linear algebra, and more.
 -  It is one of the most popular libraries for scientific computing in Python.
 
-## Install SciPy using pip
+## Why use SciPy
+- SciPy contains varieties of sub packages which help to solve the most common issue related to Scientific Computation.
+- SciPy package in Python is the most used Scientific library only second to GNU Scientific Library for C/C++ or Matlab’s.
+ -  Easy to use and understand as well as fast computational power.
+-  It can operate on an array of NumPy library.
+
+  ## Install SciPy using pip
 To install, run the following command in the terminal:
 ```python
 pip install scipy  
@@ -25,7 +31,7 @@ import scipy
 def sqrt(x):
     return scipy.sqrt(x)
 ```
-Subpackages in SciPy:
+### Subpackages in SciPy:
 SciPy has a number of subpackages for various scientific computations which are shown in the following table:
 
 ##   Name	                   Description
@@ -100,7 +106,30 @@ Here is a non-exhaustive list of some of the most commonly used functions:
 
 - Distance functions: **_euclidean, cityblock, hamming, jaccard, pdist, cdist_**
 
+## Basic Functions:
+## Interaction with NumPy:
+SciPy builds on NumPy and therefore you can make use of NumPy functions itself to handle arrays. To know in-depth about these functions, you can simply make use of help(), info() or source() functions.
 
+## help():
+To get information about any function, you can make use of the help() function. There are two ways in which this function can be used:
+
+without any parameters
+using parameters
+Here is an example that shows both of the above methods:
+
+```python
+from scipy import cluster
+help(cluster)               #with parameter
+help()                       #without parameter
+```
+When you execute the above code, the first help() returns the information about the cluster submodule. The second help() asks the user to enter the name of any module, keyword, etc for which the user desires to seek information. To stop the execution of this function, simply type ‘quit’ and hit enter.
+
+## info():
+This function returns information about the desired functions, modules, etc.
+
+```python
+scipy.info(cluster)
+```
 ## SciPy constants
 There are a variety of constants that are included in the scipy.constant sub-package.These constants are used in the general scientific area. 
 Let us see how these constant variables are imported and used.
@@ -158,4 +187,51 @@ Here is how you can get the value of the required constant:
         12.	m_p	                    Proton mass
         13.	m_n	                    Neutron Mass
         14.	H	                    Plank Constant
+
+## Example
+```python
+from scipy import constants
+print(constants.tera)     #1000000000000.0
+print(constants.giga)     #1000000000.0
+print(constants.mega)     #1000000.0
+print(constants.kilo)     #1000.0
+print(constants.hecto)    #100.0
+print(constants.deka)     #10.0
+print(constants.deci)     #0.1
+print(constants.centi)    #0.01
+print(constants.milli)    #0.001
+print(constants.micro)    #1e-06
+````
+
+## Special Functions:
+
+SciPy provides a number of special functions that are used in mathematical physics such as elliptic, convenience functions, gamma, beta, etc. To look for all the functions, you can make use of help() function as described earlier.
+
+### Exponential and Trigonometric Functions:
+SciPy’s Special Function package provides a number of functions through which you can find exponents and solve trigonometric problems.
+
+## Consider the following example:
+
+EXAMPLE:
+
+```python
+from scipy import special
+a = special.exp10(3)
+print(a)
+ 
+b = special.exp2(3)
+print(b)
+ 
+c = special.sindg(90)
+print(c)
+ 
+d = special.cosdg(45)
+print(d)
+```
+OUTPUT:
+
+1000.0
+8.0
+1.0
+0.7071067811865475
       
