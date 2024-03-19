@@ -261,3 +261,93 @@ cb = cbrt([27, 64])
 #print value of cb
 print(cb)
 ```      
+# Minimizing a Function
+A function, in this context, represents a curve, curves have high points and low points.
+
+High points are called maxima.
+
+Low points are called minima.
+
+The highest point in the whole curve is called global maxima, whereas the rest of them are called local maxima.
+
+The lowest point in whole curve is called global minima, whereas the rest of them are called local minima.
+
+### Finding Minima
+We can use scipy.optimize.minimize() function to minimize the function.
+
+The minimize() function takes the following arguments:
+
+fun - a function representing an equation.
+
+x0 - an initial guess for the root.
+
+method - name of the method to use. Legal values:
+    'CG'
+    'BFGS'
+    'Newton-CG'
+    'L-BFGS-B'
+    'TNC'
+    'COBYLA'
+    'SLSQP'
+
+callback - function called after each iteration of optimization.
+
+options - a dictionary defining extra params:
+
+{
+     "disp": boolean - print detailed description
+     "gtol": number - the tolerance of the error
+  }
+  
+###Example
+Minimize the function x^2 + x + 2 with BFGS:
+```python
+from scipy.optimize import minimize
+
+def eqn(x):
+  return x**2 + x + 2
+
+mymin = minimize(eqn, 0, method='BFGS')
+
+print(mymin)
+```
+
+# SciPy Sparse Data
+## What is Sparse Data
+Sparse data is data that has mostly unused elements (elements that don't carry any information ).
+
+It can be an array like this one:
+
+[1, 0, 2, 0, 0, 3, 0, 0, 0, 0, 0, 0]
+
+Sparse Data: is a data set where most of the item values are zero.
+
+Dense Array: is the opposite of a sparse array: most of the values are not zero.
+
+In scientific computing, when we are dealing with partial derivatives in linear algebra we will come across sparse data.
+
+### How to Work With Sparse Data
+SciPy has a module, scipy.sparse that provides functions to deal with sparse data.
+
+There are primarily two types of sparse matrices that we use:
+
+CSC - Compressed Sparse Column. For efficient arithmetic, fast column slicing.
+
+CSR - Compressed Sparse Row. For fast row slicing, faster matrix vector products
+
+We will use the CSR matrix in this tutorial.
+
+CSR Matrix
+We can create CSR matrix by passing an arrray into function scipy.sparse.csr_matrix().
+
+### Example
+
+Create a CSR matrix from an array:
+```python
+import numpy as np
+from scipy.sparse import csr_matrix
+
+arr = np.array([0, 0, 0, 0, 0, 1, 1, 0, 2])
+
+print(csr_matrix(arr))
+```
