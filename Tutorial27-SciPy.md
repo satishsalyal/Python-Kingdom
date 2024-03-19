@@ -203,6 +203,18 @@ print(constants.milli)    #0.001
 print(constants.micro)    #1e-06
 ````
 
+## Binary Prefixes:
+Return the specified unit in bytes (e.g. kibi returns 1024)
+
+Example
+```python
+from scipy import constants
+
+print(constants.kibi)    #1024
+print(constants.mebi)    #1048576
+print(constants.gibi)    #1073741824
+print(constants.tebi)    #1099511627776
+```
 ## Special Functions:
 
 SciPy provides a number of special functions that are used in mathematical physics such as elliptic, convenience functions, gamma, beta, etc. To look for all the functions, you can make use of help() function as described earlier.
@@ -234,4 +246,18 @@ OUTPUT:
 8.0
 1.0
 0.7071067811865475
-      
+
+
+## Cubic Root Function
+Cubic Root function finds the cube root of values.
+
+#### Syntax:
+
+scipy.special.cbrt(x)
+```pyhon
+from scipy.special import cbrt
+#Find cubic root of 27 & 64 using cbrt() function
+cb = cbrt([27, 64])
+#print value of cb
+print(cb)
+```      
