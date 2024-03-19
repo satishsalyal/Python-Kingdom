@@ -25,6 +25,25 @@ import scipy
 def sqrt(x):
     return scipy.sqrt(x)
 ```
+Subpackages in SciPy:
+SciPy has a number of subpackages for various scientific computations which are shown in the following table:
+
+##   Name	                   Description
+     cluster	               Clustering algorithms
+     constants	               Physical and mathematical constants
+      fftpack	               Fast Fourier Transform routines
+      integrate	               Integration and ordinary differential equation solvers
+      interpolate	           Interpolation and smoothing splines
+      io	                   Input and Output
+      linalg	                Linear algebra
+      ndimage                  	N-dimensional image processing
+      odr                    	Orthogonal distance regression
+      optimize	                Optimization and root-finding routines
+      signal	                Signal processing
+      sparse	                Sparse matrices and associated routines
+      spatial	                Spatial data structures and algorithms
+      special	                Special functions
+      stats	                   Statistical distributions and functions
 
 ## Modules of SciPy
 SciPy provides a large number of modules for different scientific calculations. Here are some of the most commonly used modules:
