@@ -43,7 +43,7 @@ plt.title('Sine Function')
 plt.grid(True)
 plt.show()
 ```
-In this example, we use NumPy to create an array of evenly spaced numbers (x) from 0 to 10 and calculate the corresponding sine values (y). We then use plt.plot() to create a line plot, and plt.xlabel(), plt.ylabel(), and plt.title() to add labels and a title to the plot. Finally, plt.grid(True) adds grid lines to the plot, and plt.show() displays the plot.
+In this example, we use NumPy to create an array of evenly spaced numbers (x) from 0 to 10 and calculate the corresponding sine values (y). We then use ***plt.plot() to create a line plot, and plt.xlabel(), plt.ylabel(), and plt.title()*** to add labels and a title to the plot. Finally, **plt.grid(True)** adds grid lines to the plot, and **plt.show()** displays the plot.
 
 ### Customizing Plots
 
@@ -61,7 +61,7 @@ plt.legend()
 plt.savefig('sine_plot.png')  # Save plot as PNG file
 plt.show()
 ```
-In this example, we customize the line color, style, width, marker style, and size using arguments in the plt.plot() function. We also add a legend with plt.legend(), and save the plot as a PNG file using plt.savefig().
+In this example, we customize the line color, style, width, marker style, and size using arguments in the **plt.plot()** function. We also add a legend with **plt.legend()**, and save the plot as a PNG file using **plt.savefig()**.
 
 
 ### Axes Class
@@ -69,7 +69,7 @@ Axes class is the most basic and flexible unit for creating sub-plots. A given f
 
 ### Syntax:
 
-matplotlib.pyplot.axis(*args, emit=True, **kwargs)
+_matplotlib.pyplot.axis(*args, emit=True, **kwargs)_
 
 ```python 
 
@@ -91,7 +91,7 @@ The attribute bbox_to_anchor=(x, y) of legend() function is used to specify the 
 
 ### Syntax:
 
-matplotlib.pyplot.legend([“blue”, “green”], bbox_to_anchor=(0.75, 1.15), ncol=2)
+_matplotlib.pyplot.legend([“blue”, “green”], bbox_to_anchor=(0.75, 1.15), ncol=2)_
 ```python
 
 import matplotlib.pyplot as plt  
@@ -113,7 +113,7 @@ This method adds another plot to the current figure at the specified grid positi
 
 ### Syntax:
 
-subplot(nrows, ncols, index, **kwargs)
+_subplot(nrows, ncols, index, **kwargs)_
 
 subplot(pos, **kwargs) 
 
