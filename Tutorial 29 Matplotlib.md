@@ -17,6 +17,18 @@ pip install matplotlib
 ### Getting Started
 Let's start by importing Matplotlib into our Python script:
 
+
+
+```python
+
+import matplotlib.pyplot as plt
+```
+The **pyplot** module is a collection of functions that make Matplotlib work like MATLAB. It provides a convenient interface for creating plots and modifying them with various parameters.
+
+### Basic Plotting
+
+One of the simplest plots to create with Matplotlib is a line plot. Let's generate a basic plot to visualize a mathematical function:
+
 ### Plotting x and y points
 -The plot() function is used to draw points (markers) in a diagram.
 
@@ -31,6 +43,7 @@ Let's start by importing Matplotlib into our Python script:
 -If we need to plot a line from (1, 3) to (8, 10), we have to pass two arrays [1, 8] and [3, 10] to the plot function.
 
 Example 
+
 Draw a line in a diagram from position (1, 3) to position (8, 10):
 ```python
 import matplotlib.pyplot as plt
@@ -43,15 +56,6 @@ plt.plot(xpoints, ypoints)
 plt.show()
 ```
 
-```python
-
-import matplotlib.pyplot as plt
-```
-The **pyplot** module is a collection of functions that make Matplotlib work like MATLAB. It provides a convenient interface for creating plots and modifying them with various parameters.
-
-### Basic Plotting
-
-One of the simplest plots to create with Matplotlib is a line plot. Let's generate a basic plot to visualize a mathematical function:
 
 ```python
 
