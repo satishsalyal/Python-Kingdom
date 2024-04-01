@@ -17,6 +17,32 @@ pip install matplotlib
 ### Getting Started
 Let's start by importing Matplotlib into our Python script:
 
+### Plotting x and y points
+-The plot() function is used to draw points (markers) in a diagram.
+
+-By default, the plot() function draws a line from point to point.
+
+-The function takes parameters for specifying points in the diagram.
+
+-Parameter 1 is an array containing the points on the x-axis.
+
+-Parameter 2 is an array containing the points on the y-axis.
+
+-If we need to plot a line from (1, 3) to (8, 10), we have to pass two arrays [1, 8] and [3, 10] to the plot function.
+
+Example 
+Draw a line in a diagram from position (1, 3) to position (8, 10):
+```python
+import matplotlib.pyplot as plt
+import numpy as np
+
+xpoints = np.array([1, 8])
+ypoints = np.array([3, 10])
+
+plt.plot(xpoints, ypoints)
+plt.show()
+```
+
 ```python
 
 import matplotlib.pyplot as plt
@@ -44,6 +70,24 @@ plt.grid(True)
 plt.show()
 ```
 In this example, we use NumPy to create an array of evenly spaced numbers (x) from 0 to 10 and calculate the corresponding sine values (y). We then use ***plt.plot() to create a line plot, and plt.xlabel(), plt.ylabel(), and plt.title()*** to add labels and a title to the plot. Finally, **plt.grid(True)** adds grid lines to the plot, and **plt.show()** displays the plot.
+
+### Creating Lables 
+Example 
+Add labels to the x- and y-axis:
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.array([80, 85, 90, 95, 100, 105, 110, 115, 120, 125])
+y = np.array([240, 250, 260, 270, 280, 290, 300, 310, 320, 330])
+
+plt.plot(x, y)
+
+plt.xlabel("Average Pulse")
+plt.ylabel("Calorie Burnage")
+
+plt.show()
+````
 
 ### Customizing Plots
 
