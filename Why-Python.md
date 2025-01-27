@@ -1,6 +1,6 @@
 Here’s a GitHub Markdown (.md) file with the content formatted attractively, including some emphasis, code formatting, and color-based syntax highlighting where applicable:
 
-```markdown
+
 # **Python: A Popular Programming Language**
 
 Python is a popular programming language for several reasons:
@@ -88,6 +88,3 @@ While Python may not be the fastest language in terms of execution speed, it is 
 ---
 
 These factors make Python a **versatile**, **powerful**, and **accessible language** for both beginners and experienced developers.
-```
-
-This file uses headers, lists, code formatting, and emojis to make the content visually appealing and easy to follow on GitHub. Would you like to make any changes or add specific highlights?
