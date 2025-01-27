@@ -1,4 +1,4 @@
-Here’s a GitHub Markdown (.md) file with the content formatted attractively, including some emphasis, code formatting, and color-based syntax highlighting where applicable:
+
 
 
 # **Python: A Popular Programming Language**
