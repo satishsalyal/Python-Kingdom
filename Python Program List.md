@@ -33,17 +33,11 @@
 - 🔍 **Find the Most Frequent Word in a File**
 
 
----
-
-## 🔹 **5. Object-Oriented Programming (OOP)**
-- 📌 **Define a Class and Create Objects**
-- 🔄 **Implement Inheritance and Polymorphism**
-- 📚 **Create a Student Management System Using Classes**
 
 
 ---
 
-## 🔹 **6. Data Structures (Lists, Sets, Dictionaries, Tuples)**
+## 🔹 **5. Data Structures (Lists, Sets, Dictionaries, Tuples)**
 - 📌 **Sorting a List Without Using `sort()`**
 - 🔄 **Find the Intersection of Two Sets**
 - 📊 **Dictionary Operations (Key-Value Pairs)**
