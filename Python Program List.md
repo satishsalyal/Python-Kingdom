@@ -1,4 +1,4 @@
-# 📌 ** Python Programs **
+# 📌 Python Programs 
 
 ## 🔹 **1. Basic Python Programs**
 - 🚀 **Hello World Program**
