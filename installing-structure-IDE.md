@@ -1,4 +1,4 @@
-# **Installing Python, Program Structure, Interactive Shell, Executable or Script Files, User Interface or IDE. Variables**
+# **Installing Python, Program Structure, Interactive Shell, Executable or Script Files, User Interface or IDE. **
 
 ## **1. Installing Python**
 
