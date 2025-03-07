@@ -49,6 +49,8 @@ x = 3.14    # Now a Float
 
 ## **🔹 Data Types in Python**
 ![Pthon Data Types](https://github.com/satishsalyal/Python-Kingdom/blob/main/Untitled%20Diagram%20(1).png)
+
+
 Python supports various built-in data types:
 
 | Data Type  | Example      | Description |
