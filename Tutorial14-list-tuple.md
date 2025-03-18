@@ -471,3 +471,27 @@ Traceback (most recent call last):
 File "<string>", line 10, in <module>
 TypeError: 'tuple' object does not support item assignment
 ```
+## 🐍 Python List Methods
+
+Here's a neatly formatted table of common **Python List Methods** with descriptions and examples.
+
+| **Method**        | **Description**                                          | **Example** |
+|------------------|--------------------------------------------------|------------|
+| `append(x)`      | Adds an item `x` to the end of the list.        | `lst.append(5)` |
+| `extend(iter)`   | Extends the list by appending elements from an iterable. | `lst.extend([1, 2, 3])` |
+| `insert(i, x)`   | Inserts an item `x` at a given position `i`.   | `lst.insert(2, 10)` |
+| `remove(x)`      | Removes the first occurrence of an item `x`.    | `lst.remove(3)` |
+| `pop([i])`       | Removes and returns the item at index `i`. If no index is specified, removes the last item. | `lst.pop(2)` |
+| `clear()`        | Removes all items from the list.                | `lst.clear()` |
+| `index(x[, start[, end]])` | Returns the index of the first occurrence of `x`. | `lst.index(4)` |
+| `count(x)`       | Returns the number of occurrences of `x`.       | `lst.count(2)` |
+| `sort([key=None, reverse=False])` | Sorts the list in place.         | `lst.sort(reverse=True)` |
+| `reverse()`      | Reverses the list in place.                      | `lst.reverse()` |
+| `copy()`         | Returns a shallow copy of the list.              | `new_lst = lst.copy()` |
+
+### 📌 Example Usage
+```python
+my_list = [3, 1, 4, 1, 5, 9]
+my_list.append(6)
+print(my_list)  # [3, 1, 4, 1, 5, 9, 6]
+```
