@@ -341,6 +341,32 @@ False
 
 ---
 
+## 🐍 Python String Methods
+
+Here's a neatly formatted table of common **Python String Methods** with descriptions and examples.
+
+| **Method**        | **Description**                                          | **Example** |
+|------------------|--------------------------------------------------|------------|
+| `upper()`      | Converts all characters in a string to uppercase.        | `'hello'.upper()` → `'HELLO'` |
+| `lower()`      | Converts all characters in a string to lowercase.        | `'HELLO'.lower()` → `'hello'` |
+| `capitalize()` | Capitalizes the first letter of the string.             | `'python'.capitalize()` → `'Python'` |
+| `title()`      | Converts the string to title case.                      | `'hello world'.title()` → `'Hello World'` |
+| `strip()`      | Removes leading and trailing spaces.                     | `'  hello  '.strip()` → `'hello'` |
+| `replace(old, new)` | Replaces occurrences of `old` with `new`.            | `'hello world'.replace('world', 'Python')` → `'hello Python'` |
+| `split(sep)`   | Splits the string into a list using `sep` as a delimiter. | `'a,b,c'.split(',')` → `['a', 'b', 'c']` |
+| `join(iterable)` | Joins elements of an iterable with the string as a separator. | `'-'.join(['a', 'b', 'c'])` → `'a-b-c'` |
+| `find(sub)`    | Returns the index of the first occurrence of `sub`.      | `'hello'.find('e')` → `1` |
+| `count(sub)`   | Returns the number of occurrences of `sub`.             | `'banana'.count('a')` → `3` |
+| `startswith(prefix)` | Checks if the string starts with `prefix`.          | `'hello'.startswith('he')` → `True` |
+| `endswith(suffix)` | Checks if the string ends with `suffix`.             | `'hello'.endswith('lo')` → `True` |
+
+### 📌 Example Usage
+```python
+text = "hello world"
+print(text.upper())  # 'HELLO WORLD'
+print(text.replace("world", "Python"))  # 'hello Python'
+```
+
 ### Python String Methods
 
 Strings are probably the most frequently used data type. To make working with strings easier, Python has numerous string methods readily available for us to use.
