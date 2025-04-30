@@ -74,3 +74,121 @@ conda install scipy
 
 ---
 
+---
+
+## 🔢 Constants in SciPy
+
+SciPy includes a comprehensive set of scientific constants in the `scipy.constants` module. These are especially useful for physics, chemistry, and data science applications.
+
+### 🧪 Example: Print the Value of π (Pi)
+
+```python
+from scipy import constants
+
+print(constants.pi)
+```
+
+### 📋 Listing All Constants
+
+To see all available constants:
+
+```python
+from scipy import constants
+
+print(dir(constants))
+```
+
+🧠 These constants include units for energy, mass, temperature, angles, and more.
+
+---
+
+## ⚙️ Optimizers in SciPy
+
+SciPy provides a collection of optimization tools in the `scipy.optimize` module. These tools are useful for:
+
+- Minimizing functions (used in machine learning models)  
+- Finding the root of equations
+
+### 🧮 Finding Roots of Non-linear Equations
+
+Unlike NumPy, SciPy can find roots of non-linear equations.
+
+#### 📌 Example: Solve `x + cos(x) = 0`
+
+```python
+from scipy.optimize import root
+from math import cos
+
+def eqn(x):
+    return x + cos(x)
+
+solution = root(eqn, 0)
+print("Root:", solution.x)
+```
+
+🧠 **Explanation:**
+- `eqn` is the function to solve  
+- `0` is the initial guess  
+- The root is accessed with `.x`
+
+---
+
+## 🧊 Sparse Data and Matrices
+
+Sparse data refers to datasets where most elements are zeros or empty.
+
+🔸 **Example:**
+
+```python
+[1, 0, 2, 0, 0, 3, 0, 0, 0]
+```
+
+This kind of data is common in scientific computing, especially in linear algebra, PDEs, and machine learning.
+
+### 🧰 Working with Sparse Matrices
+
+SciPy’s `scipy.sparse` module provides efficient structures for sparse data. Two common formats are:
+
+- **CSR (Compressed Sparse Row):** Best for row slicing, matrix-vector products.  
+- **CSC (Compressed Sparse Column):** Best for arithmetic and column slicing.
+
+### 🧱 Example: Creating a CSR Matrix
+
+```python
+import numpy as np
+from scipy.sparse import csr_matrix
+
+arr = np.array([0, 0, 0, 0, 0, 1, 1, 0, 2])
+sparse_matrix = csr_matrix(arr)
+
+print(sparse_matrix)
+```
+
+#### 🔍 Output:
+```
+  (0, 5)	1
+  (0, 6)	1
+  (0, 8)	2
+```
+
+This shows only non-zero entries with their (row, column) positions and values.
+
+### 🔍 View Stored (Non-Zero) Values Only
+
+```python
+arr2d = np.array([[0, 0, 0], [0, 0, 1], [1, 0, 2]])
+sparse = csr_matrix(arr2d)
+
+print(sparse.data)
+```
+
+---
+
+## 📥 Importing SciPy Modules
+
+To use any module from SciPy, import it directly:
+
+```python
+from scipy import constants
+print(constants.liter)  # How many cubic meters in a liter
+```
